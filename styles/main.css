@@ -1,1 +1,30 @@
-body { background-color: rgb(115, 115, 182); }
+body {
+    background-image: linear-gradient(#0C1531, #213A82, #3C60CD, #213A82, #0C1531); 
+    text-align: center;
+    color: #b8ccea;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 80px;
+    color: #637D26;
+    Margin-top: 100px;
+    Margin-right: 5px;
+    Margin-bottom: 10px;
+}
+
+h2 {
+    font-family: cursive;
+    font-size:55px;
+    color:#AFCF63;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+div {
+    font-family: monospace;
+}
