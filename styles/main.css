@@ -89,11 +89,16 @@ p {
 
 .blog-links {
     width: 650px;
-    height: 70px;
+    height: auto;
     border: 1px solid white;
-    padding: 20px;
+    padding: 1px;
+    background-color: #A3B6C0;
+    color:#080D29;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
 }
 
 /* footer icons */
