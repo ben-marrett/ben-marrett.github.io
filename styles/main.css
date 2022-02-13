@@ -22,13 +22,16 @@ h1 {
 }
 
 h2 {
-  font-family: 'Oooh Baby', cursive;;
+  font-family: 'Raleway', sans-serif;
   font-size:40px;
   color:#EBEBEB;
   margin: 1px 20px 33px;
   padding-bottom: 50px;
 }
 
+article {
+  margin: 0 auto;
+}
 
 #Earth-image {
   display: block;
