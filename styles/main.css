@@ -26,7 +26,10 @@ h2 {
   font-size:40px;
   color:#EBEBEB;
   margin: 1px 20px 33px;
+  padding-bottom: 50px;
 }
+
+
 #Earth-image {
   display: block;
   margin-left: auto;
@@ -85,8 +88,7 @@ background-color: #337EAB
 }
 
 ul {
-  width 400px;
-  margin: 10px 200px;
+  margin: 10px 400px;
   padding: 10px;
 }
 
@@ -144,7 +146,7 @@ to { border-color: rgb(5, 148, 93); }
 /* footer icons */
 
 footer {
-  min: height 50px;
+  min-height: 50px;
   margin-top:auto; 
 }
 .fa-github-square:hover {
