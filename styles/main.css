@@ -2,7 +2,8 @@ body {
   background-image: linear-gradient(#6CC8CE,#253CBB,#080D29,#060A11, #000000,#060A11,#080D29,#253CBB, #6CC8CE); 
   min-height: 100vh;
   margin: 0;
-  display:flex; 
+  display:flex;
+  text-align: center;
   flex-direction:column; 
 }
 
@@ -114,7 +115,13 @@ a {
 }
 .blog-entry {
 display: inline-block;
-
+border: none;
+color: #b8ccea;
+font-size: 25px;
+font-family: monospace;
+width: 650px;
+padding: 20px;
+margin: 0 auto;
 }
 
 .typed-out {
