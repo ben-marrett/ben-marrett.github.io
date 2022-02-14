@@ -41,6 +41,10 @@ article {
   margin: 0 auto;
 }
 
+.center-image {
+  text-align: center;
+}
+
 #Earth-image {
   display: block;
   margin-left: auto;
