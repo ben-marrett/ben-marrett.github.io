@@ -110,17 +110,29 @@ background-color: #337EAB
 a {
   color:#b8ccea;
 }
-.blog-entry {
+.blog-holder {
 display: inline-block;
 border: none;
 color: #b8ccea;
 font-size: 25px;
-text-align: left;
+text-align: center;
 font-family: monospace;
 width: 800px;
 padding: 20px;
 margin: 0 auto;
 }
+
+.blog-entry {
+  display: inline-block;
+  border: none;
+  color: #b8ccea;
+  font-size: 25px;
+  text-align: left;
+  font-family: monospace;
+  width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  }
 
 .container {
   display: inline-block;
@@ -130,7 +142,7 @@ margin: 0 auto;
 overflow: hidden;
 border-right: .15em solid rgb(5, 148, 93);
 font-size: 1.6rem;
-text-align: left;
+text-align: center;
 width: 0;
 white-space: nowrap;
 animation: typing 1.6s steps(20, end) forwards,
