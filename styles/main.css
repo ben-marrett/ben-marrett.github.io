@@ -118,8 +118,9 @@ display: inline-block;
 border: none;
 color: #b8ccea;
 font-size: 25px;
+text-align: left;
 font-family: monospace;
-width: 650px;
+width: 800px;
 padding: 20px;
 margin: 0 auto;
 }
