@@ -122,6 +122,10 @@ padding: 20px;
 margin: 0 auto;
 }
 
+.container {
+  display: inline-block;
+}
+
 .typed-out {
 overflow: hidden;
 border-right: .15em solid rgb(5, 148, 93);
