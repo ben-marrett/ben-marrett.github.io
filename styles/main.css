@@ -33,7 +33,7 @@ h2 {
 
 .main {
   font-family: monospace;
-  margin-left: 0; /* Same as the width of the sidebar */
+  margin-left: 0; 
   padding: 0px 10px;
 }
 
@@ -87,7 +87,7 @@ border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right
 left: 0; /* On mouse-over, make the elements appear as they should */
 }
 
-/* The about link: 20px from the top with a green background */
+/* Tabs for sidebar */
 #home {
 top: 350px;
 background-color: #EEEFEA;
@@ -109,11 +109,12 @@ background-color: #337EAB
 }
 
 /* additional */
-
-
 a {
   color:#b8ccea;
 }
+
+/*blog page styling*/
+
 .blog-holder {
 display: inline-block;
 border: none;
@@ -173,9 +174,21 @@ animation-delay: 1.6s;
   width: 0;
   white-space: nowrap;
   animation: typing 1.6s steps(20, end) forwards,
-  blink .8s infinite;
+  blink .8s 1.6s;
   animation-delay: 3.2s;
   }
+
+  .typed-out4 {
+    overflow: hidden;
+    border-right: .15em solid rgb(5, 148, 93);
+    font-size: 1.6rem;
+    text-align: left;
+    width: 0;
+    white-space: nowrap;
+    animation: typing 1.6s steps(20, end) forwards,
+    blink .8s infinite;
+    animation-delay: 4.8s;
+    }
 
 @keyframes typing {
 from { width: 0 }
