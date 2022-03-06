@@ -226,9 +226,21 @@ animation-delay: 1.6s;
           width: 0;
           white-space: nowrap;
           animation: typing 1.6s steps(20, end) forwards,
-          blink .8s infinite;
+          blink .8s 1.6s;
           animation-delay: 9.6s;
           }
+          .typed-out8 {
+            overflow: hidden;
+            border-right: .15em solid rgb(5, 148, 93);
+            font-size: 1.6rem;
+            text-align: left;
+            width: 0;
+            white-space: nowrap;
+            animation: typing 1.6s steps(20, end) forwards,
+            blink .8s infinite;
+            animation-delay: 11.2s;
+            }
+  
 
 @keyframes typing {
 from { width: 0 }
