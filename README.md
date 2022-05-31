@@ -1,2 +1,2 @@
 # ben-marrett.github.io
-A blog site created during Foundations course at Dev Academy Aotearoa.
+A blog site created during my initial Foundations course at Dev Academy Aotearoa.
